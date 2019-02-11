@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 46%;
+    height: 10%;
+    border: 1px solid black;
+    background-color: #6b6b6b;
+    position: relative;
+    margin: 20px;
+}
+
+#A {
+    background-color: #4c94d4;
+}
+
+#C {
+    background-color: #210d0d
+}
+
+#D {
+    background-color: black;
+}
+#B , #D {
+    float: right; 
+}
+

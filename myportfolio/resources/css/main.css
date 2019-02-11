@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-color: #212121;
+}
+
+.all-content {
+    margin: 0 2em;
+}
+
+/* Navigatie*/
+.main-nav {
+    z-index: 5;
+}
+
+.main-nav h1 {
+    position: fixed;
+    width: 13.4em;
+    height: 2em;
+    top: -0.85em;
+    font-size: 1.9em;
+    border: 5px #6f0808 solid;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    background-color: black;
+    z-index: 99;
+    border-bottom-right-radius: 20px;
+}
+.main-nav ul {
+    position: fixed;
+    top: 0px;
+    width: 71.35%;
+    min-width: 950px;
+    height: 8%;
+    min-height: 75px;
+    margin-top: 0;
+    left: 16.2em;
+    list-style-type: none;
+    text-align: center;
+    background-color: black;
+    border: 2px #6f0808 solid;
+    z-index: 98;
+    font-size: 1.8em;
+}
+
+ .main-nav ul li {
+    display: inline-block;
+}
+
+.main-nav ul li a{
+    display: block;
+    margin: 11px;
+    padding: 4px;
+    cursor: pointer;
+    border-left: 2px solid #6f0808;
+    border-right: 2px solid #6f0808;
+    text-decoration: none;
+    color: white;
+    width: 6em;
+    text-align: center;
+}
+
+.main-nav ul li a {
+background-color: #258225;
+}
+
+.main-nav ul li a:hover {
+    background-color: #0158b1;
+}
+
+#lastlink {
+    border-right: 2px solid #6f0808;
+}
+
+/* inhoud van de home pagina */
+
+.content {
+    background-color: #212121;;
+    height: 51em;
+}
+
+#foto-tim {
+    border: 5px solid #1d3c1d;
+    position: relative;
+    top: 2.5em;
+    margin-top: 59px;
+    margin-left: 11px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.box {
+    border-radius: 20px;
+    text-indent: -10px;
+}
+
+
+.content h2 {
+    width: 50%;
+    display: inline-block;
+}
+
+.click-for-content {
+    position: relative;
+    width: 15%;
+    left: 15em;
+    top: -40em;
+    display: flex;
+    flex-basis: 5em;
+    flex-direction: column;
+    
+}
+
+.content .click-for-content .box {
+    width: 10em;
+    height: 8em;
+    margin: 2em;
+    background-color:#b1b1b1;
+    color: rgb(141, 26, 26);
+    border: #1d3c1d 3px solid;
+    cursor: pointer;
+}
+
+.content .click-for-content button {
+    display: inline-block;
+    font-size: 0.91em;
+}
+
+/* toggle classes*/
+
+.doelen {
+    position: absolute;
+    width: 19em;
+    left: 12em;
+    top: 1.5em;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.beroep {
+    position: absolute;
+    width: 16em;
+    left: 26em;
+    top: 12.5em;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.portfolio {
+    position: absolute;
+    left: 46em;
+    top: 23em;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.contact {
+    position: absolute;
+    right: -80em;
+    top: 28em;
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+    display: none;
+    width: 23em;
+    padding-left: 3em;
+    border-radius: 25px;
+    border: 3px yellow dashed;
+}
+
+
+/*footer*/
+footer {
+    background-color: #212121;
+}
+#quote {
+    width: 68%;
+    position: relative;
+    left: 12em;
+    border-radius: 94px;
+}
+
+
+/* Sidepages*/
+#underNavBar {
+    margin-top: 8em;
+    margin-left: 2em;
+}
+
+
+/* media queries */
+@media screen and (max-width: 1800px) {
+    .contact{
+        right: -29em;
+        top: 29em;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .main-nav h1 {
+        display: none;
+    }
+
+    .main-nav ul {
+        position: fixed;
+        top: 0px;
+        height: 5%;
+        margin-top: 0;            
+        left: 0em;
+        list-style-type: none;
+        text-align: center;
+        background-color: black;
+        border: 2px #6f0808 solid;
+        z-index: 100;
+        text-indent: -11px;
+        font-size: 1.8em;
+        }
+
+    .main-nav ul li a {
+        width: 5em;
+    }
+
+    #foto-tim {
+        top: 3em;
+    }
+
+    .click-for-content {
+        top: -39em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-nav ul {
+        height: 4%;
+        }
+}

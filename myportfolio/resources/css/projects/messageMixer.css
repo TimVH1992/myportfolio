@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 1em;
+}
+
+textarea {
+    margin: 1em;
+    min-height: 150px;
+    min-width: 500px;
+}
